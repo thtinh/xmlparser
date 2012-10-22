@@ -1,15 +1,24 @@
 To clarify:
 
 Method 1:
-
-website where we need to display the XML is here: 79.170.44.18 pwd: YsYG9EJ^n path to file: public_html/xml/affil….xml User: liquidengine.com
-The XML we need is here: FTP: 79.170.44.18 pwd:UNs.x^6K7 user: liquidengine.com path to file: public_html/index.php
-
+============================================================
+website where we need to display the XML is here: 
+host: 79.170.44.18 
+User: liquidengine.com
+pwd: YsYG9EJ^n  
+path to file: public_html/xml/affil….xml
+============================================================
+The FTP details for the example webpage are:   
+host:79.170.44.11 
+User: liquidenginetest.com
+pwd:UNs.x^6K7
+path to file: public_html/index.php
+===========================================================================
 Method 2: (if it's even possible):
 Have the the XML file copied to http://79.170.40.241/liquidenginetest.com/xml/ on a weekly basis
 The website will then have the file local and won't need to access from the FTP server.
 If this is too long winded, then don't bother.... just stick with method 1.
-
+==========================================================================================
 cronjob 
 
 Argument 1: Minute (0 - 59)
